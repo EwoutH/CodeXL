@@ -6,8 +6,6 @@ compiler:
   - gcc
 
 before_install:
- - git submodule init
- - git submodule update
  - python CodeXL/Scripts/FetchDependencies.py
 
 install:
